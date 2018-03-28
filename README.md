@@ -1,11 +1,8 @@
-# Image-and-File-Share-In-PHP-Yii
 
-ASSIGNMENT ON PHP Yii FRAMEWORK:
+# Website Name: IMAGE SHARING WEBSITE FOR DIFFERENT PUBLISHERS
+# Submitted By: Md. Ashiqur Rahman.
 
-Website Name: IMAGE SHARING WEBSITE FOR DIFFERENT PUBLISHERS
-Submitted By: Md. Ashiqur Rahman.
-
-Requirements:
+# Requirements:
     1. Create an website having different users of three levels such as Admin, Agent and Member using PHP Yii Framework.
     2. Admin has access to any image files uploaded by anyone from agents or members.
     3. Admin is the parent of the agents.
@@ -13,19 +10,19 @@ Requirements:
     5. Each member has a parent who is agent.
     6. Other than hierarchical structure, any publisher has access to the uploaded image which is shared with him by the uploader.
 
-Hierarchy:
+# Hierarchy:
     1. One admin having all the controls.
     2. Multiple agents whose parent is the admin.
     3. Multiple members whose parent is one agent.
 
-Database:
+# Database:
     1. Name of the database is: image_share.
     2. It has two tables named as Publisher and Share.
     3. Publisher table contains the data of all the publishers.
     4. Share table contains the data of shared images.
 
 
-Functionalities:
+# Functionalities:
 
     #Publishers:
         1. The system has only one admin and multiple agents under the admin and multiple members under the agents.
